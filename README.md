@@ -1,151 +1,170 @@
-# M.Hasan.github.io
-Marketplaceodio
 <!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Marketplace Audio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Audio Store</title>
   <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      scroll-behavior: smooth;
-    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; }
+
+    /* Navbar */
     header {
-      background: #111;
-      color: white;
-      padding: 20px;
+      background: #fff;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #eee;
       position: sticky;
       top: 0;
-      z-index: 1000;
+      z-index: 999;
     }
-    nav {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 10px;
+
+    .logo {
+      font-size: 1.5em;
       font-weight: bold;
     }
-    section {
-      padding: 60px 20px;
-      min-height: 100vh;
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
     }
-    .hero {
-      background: url('https://images.unsplash.com/photo-1585386959984-a41552264cf5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80') center/cover;
-      color: white;
-      text-align: center;
-    }
-    .hero h1 {
-      font-size: 3em;
-      margin-top: 100px;
-    }
-    .section-title {
-      text-align: center;
-      font-size: 2em;
-      margin-bottom: 20px;
-    }
-    .produk-grid {
+
+    /* Hero Slider */
+    .slider {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
+      overflow: hidden;
+      position: relative;
+      height: 100vh;
+      background: #f8f8f8;
     }
-    .produk {
-      background: #f0f0f0;
-      padding: 10px;
-      border-radius: 10px;
-      width: 200px;
-      text-align: center;
+
+    .slide {
+      min-width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 50px;
+      transition: 0.5s ease;
     }
-    .produk img {
-      width: 100%;
-      border-radius: 10px;
+
+    .slide img {
+      max-width: 400px;
+      border-radius: 20px;
     }
-    footer {
-      background: #111;
+
+    .slide-content {
+      max-width: 500px;
+    }
+
+    .slide-content h1 {
+      font-size: 2em;
+      margin-bottom: 15px;
+    }
+
+    .slide-content p {
+      margin-bottom: 20px;
+      font-size: 1.1em;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      background: black;
       color: white;
-      text-align: center;
-      padding: 20px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
     }
+
+    /* Arrows */
+    .arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 2em;
+      color: #444;
+      background: rgba(255,255,255,0.7);
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      z-index: 1;
+    }
+
+    .left-arrow { left: 10px; }
+    .right-arrow { right: 10px; }
   </style>
 </head>
 <body>
 
-<header>
-  <nav>
-    <a href="#beranda">Beranda</a>
-    <a href="#tentang">Tentang Kami</a>
-    <a href="#produk">Produk Kami</a>
-    <a href="#promo">Promo</a>
-    <a href="#testimoni">Testimoni</a>
-    <a href="#kontak">Kontak</a>
-    <a href="#faq">FAQ</a>
-  </nav>
-</header>
+  <!-- Navbar -->
+  <header>
+    <div class="logo">焰雨</div>
+    <nav>
+      <a href="#smartphone">Smartphone</a>
+      <a href="#audio">Pro Audio</a>
+      <a href="#tws">TWS</a>
+      <a href="#collabs">Collabs</a>
+      <a href="#keyboard">Keyboards</a>
+      <a href="#about">About Us</a>
+      <a href="#support">Support</a>
+    </nav>
+  </header>
 
-<section id="beranda" class="hero">
-  <h1>Marketplace Audio</h1>
-  <p>Temukan audio gear terbaik untukmu</p>
-</section>
+  <!-- Hero Slider -->
+  <section class="slider" id="beranda">
+    <div class="arrow left-arrow" onclick="prevSlide()">&#10094;</div>
+    <div class="arrow right-arrow" onclick="nextSlide()">&#10095;</div>
 
-<section id="tentang">
-  <h2 class="section-title">Tentang Kami</h2>
-  <p style="max-width: 600px; margin: auto;">Kami adalah toko audio online yang menyediakan berbagai jenis headphone, speaker, dan perangkat audio profesional dari berbagai brand ternama.</p>
-</section>
-
-<section id="produk">
-  <h2 class="section-title">Produk Kami</h2>
-  <div class="produk-grid">
-    <div class="produk">
-      <img src="https://via.placeholder.com/200x150" alt="Produk 1">
-      <h4>Headphone Pro</h4>
-      <p>Rp750.000</p>
+    <div class="slide" id="slide1">
+      <img src="https://i.imgur.com/wVnS9NQ.png" alt="Robin Character">
+      <div class="slide-content">
+        <h1>Nice to meet you, I'm Robin!</h1>
+        <p>Dear Trailblazers, get ready to immerse yourself in dynamic melodies with Robin!</p>
+        <button class="btn">Learn More</button>
+      </div>
     </div>
-    <div class="produk">
-      <img src="https://via.placeholder.com/200x150" alt="Produk 2">
-      <h4>Speaker Bluetooth</h4>
-      <p>Rp500.000</p>
+
+    <div class="slide" id="slide2">
+      <img src="https://via.placeholder.com/400x500?text=Product+2" alt="Product 2">
+      <div class="slide-content">
+        <h1>New Audio Series</h1>
+        <p>High-fidelity audio experience with cutting-edge technology and elegant design.</p>
+        <button class="btn">Explore Now</button>
+      </div>
     </div>
-    <div class="produk">
-      <img src="https://via.placeholder.com/200x150" alt="Produk 3">
-      <h4>Soundbar X</h4>
-      <p>Rp1.250.000</p>
-    </div>
-  </div>
-</section>
 
-<section id="promo">
-  <h2 class="section-title">Promo</h2>
-  <p style="text-align: center;">Diskon 20% untuk pembelian pertama! Gunakan kode: <strong>AUDIO20</strong></p>
-</section>
+  </section>
 
-<section id="testimoni">
-  <h2 class="section-title">Testimoni</h2>
-  <p style="max-width: 600px; margin: auto;">"Kualitas produk sangat memuaskan! Pengiriman cepat dan pelayanan ramah." - <strong>Rina, Jakarta</strong></p>
-</section>
+  <script>
+    let currentIndex = 0;
+    const slides = document.querySelectorAll('.slide');
 
-<section id="kontak">
-  <h2 class="section-title">Kontak</h2>
-  <p style="text-align: center;">📞 0812-3456-7890 | ✉️ audiomarketplace@gmail.com</p>
-  <p style="text-align: center;">📍 Jl. Audio No.1, Bandung</p>
-</section>
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.style.transform = `translateX(-${index * 100}%)`;
+      });
+    }
 
-<section id="faq">
-  <h2 class="section-title">FAQ</h2>
-  <p style="max-width: 600px; margin: auto;">
-    <strong>Q:</strong> Apakah bisa COD?<br>
-    <strong>A:</strong> Ya, kami melayani COD untuk wilayah Jabodetabek.
-  </p>
-</section>
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % slides.length;
+      showSlide(currentIndex);
+    }
 
-<footer>
-  <p>&copy; 2025 Marketplace Audio. All rights reserved.</p>
-</footer>
+    function prevSlide() {
+      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      showSlide(currentIndex);
+    }
+
+    // Optional: auto-slide every 6s
+    setInterval(nextSlide, 6000);
+  </script>
 
 </body>
 </html>
