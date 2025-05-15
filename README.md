@@ -1,33 +1,77 @@
 Toko Audio Hasan
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Marketplace Audio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toko Audio Hasan</title>
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
-    body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; }
+    * {
+      margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif; line-height: 1.6;
+    }
     header {
       position: sticky; top: 0; z-index: 999;
       background: white; padding: 1rem 2rem;
       display: flex; justify-content: space-between; align-items: center;
-      border-bottom: 1px solid #eee;
+      border-bottom: 1px solid #eee; flex-wrap: wrap;
     }
-    .logo { font-size: 1.5em; font-weight: bold; }
+    .logo {
+      font-size: 1.5em; font-weight: bold;
+    }
+    nav {
+      display: flex; flex-wrap: wrap; justify-content: center;
+    }
     nav a {
-      margin: 0 10px; text-decoration: none; color: #333; font-weight: 500;
+      margin: 5px 10px; text-decoration: none; color: #333; font-weight: 500;
     }
-    section { padding: 60px 20px; }
-    h2 { font-size: 2em; margin-bottom: 20px; }
+    .hero {
+      background: #f5f5f5;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2em;
+      color: #555;
+    }
+    section {
+      padding: 60px 20px;
+    }
+    h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
     .product-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
       gap: 20px;
     }
     .product-grid img {
       width: 100%; border-radius: 10px;
     }
-    .container { max-width: 1200px; margin: 0 auto; }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Responsiveness */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .hero h1 {
+        font-size: 2em;
+      }
+      .hero p {
+        font-size: 1em;
+      }
+    }
   </style>
 </head>
 <body>
@@ -43,6 +87,13 @@ Toko Audio Hasan
       <a href="#tentang">Tentang Kami</a>
     </nav>
   </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Selamat Datang di Toko Audio Hasan</h1>
+      <p>Kami menyediakan produk audio terbaik: earphone, headphone, DAC, kabel, dan aksesori lainnya dengan kualitas tinggi dan harga bersaing.</p>
+    </div>
+  </section>
 
   <section id="earphone">
     <div class="container">
