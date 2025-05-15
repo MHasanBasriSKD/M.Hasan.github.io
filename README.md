@@ -211,7 +211,7 @@
         <div class="product-card">
           <img src="https://ae01.alicdn.com/kf/Sb51db5532b834a85a4872e9cdb29ca62d.jpg" alt="Earphone 2">
           <div class="product-info">
-            <h3>Earphone Trebelhead 2</h3>
+            <h3>Earphone Trebelhead </h3>
             <p>Driver hybrid untuk detail suara maksimal</p>
             <p class="price">Rp 2.250.000</p>
           </div>
@@ -220,7 +220,7 @@
           <img src="https://ae01.alicdn.com/kf/Sd190d21580b0480cb8042e1b96f29437G.jpg" alt="Earphone 3">
           <div class="product-info">
             <h3>Earphone Harman Target</h3>
-            <p>Khusus untuk pecinta bass dengan kualitas tinggi</p>
+            <p>Khusus untuk pecinta teknikalitas tinggi </p>
             <p class="price">Rp 2.220.000</p>
           </div>
         </div>
