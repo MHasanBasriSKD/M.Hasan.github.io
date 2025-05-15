@@ -1,4 +1,3 @@
-Toko Audio Hasan
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
@@ -52,8 +51,19 @@ Toko Audio Hasan
       gap: 20px;
     }
     .product-grid img {
-      width: 100%; border-radius: 10px;
+      width: 100%; 
+      border-radius: 10px;
+      border: 1px solid #ddd; /* Border untuk semua gambar produk */
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Shadow ringan untuk efek depth */
+      padding: 5px; /* Jarak antara border dan gambar */
+      background: white; /* Background putih untuk gambar dengan transparansi */
+      transition: all 0.3s ease; /* Animasi hover */
     }
+    .product-grid img:hover {
+      transform: scale(1.02); /* Efek zoom kecil saat hover */
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1); /* Shadow lebih tebal saat hover */
+    }
+
     .container {
       max-width: 1200px;
       margin: 0 auto;
