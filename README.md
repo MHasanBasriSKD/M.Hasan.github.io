@@ -203,25 +203,25 @@
         <div class="product-card">
           <img src="https://ae01.alicdn.com/kf/Sfbd07154d4624730a4091b0728cb4044Q.jpg" alt="Earphone 1">
           <div class="product-info">
-            <h3>Earphone Model X1</h3>
+            <h3>Earphone Balance</h3>
             <p>Sound signature balanced dengan bass yang dalam</p>
-            <p class="price">Rp 350.000</p>
+            <p class="price">Rp 850.000</p>
           </div>
         </div>
         <div class="product-card">
           <img src="https://ae01.alicdn.com/kf/Sb51db5532b834a85a4872e9cdb29ca62d.jpg" alt="Earphone 2">
           <div class="product-info">
-            <h3>Earphone Pro 2</h3>
+            <h3>Earphone Trebelhead 2</h3>
             <p>Driver hybrid untuk detail suara maksimal</p>
-            <p class="price">Rp 550.000</p>
+            <p class="price">Rp 2.250.000</p>
           </div>
         </div>
         <div class="product-card">
           <img src="https://ae01.alicdn.com/kf/Sd190d21580b0480cb8042e1b96f29437G.jpg" alt="Earphone 3">
           <div class="product-info">
-            <h3>Earphone Bass+</h3>
+            <h3>Earphone Harman Target</h3>
             <p>Khusus untuk pecinta bass dengan kualitas tinggi</p>
-            <p class="price">Rp 420.000</p>
+            <p class="price">Rp 2.220.000</p>
           </div>
         </div>
       </div>
@@ -243,7 +243,7 @@
         <div class="product-card">
           <img src="https://m.media-amazon.com/images/I/71iBJ8MknGL._AC_UF894,1000_QL80_.jpg" alt="Headphone 2">
           <div class="product-info">
-            <h3>Wireless Headphone</h3>
+            <h3>Headphone High-End</h3>
             <p>Bluetooth 5.0 dengan baterai tahan 30 jam</p>
             <p class="price">Rp 850.000</p>
           </div>
@@ -259,7 +259,7 @@
         <div class="product-card">
           <img src="https://ae01.alicdn.com/kf/Abe97a4184e864e248b852090a17d9e3bW.jpg" alt="DAC 1">
           <div class="product-info">
-            <h3>Portable DAC V2</h3>
+            <h3>Onyx Alpha</h3>
             <p>Meningkatkan kualitas audio dari smartphone</p>
             <p class="price">Rp 750.000</p>
           </div>
