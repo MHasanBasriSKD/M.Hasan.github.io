@@ -48,7 +48,7 @@ Toko Audio Hasan
     <div class="container">
       <h2>Earphone</h2>
       <div class="product-grid">
-        <img src="https://i.imgur.com/xN0Ytrr.jpg" alt="Earphone 1">
+        <img src="https://ae01.alicdn.com/kf/Sfbd07154d4624730a4091b0728cb4044Q.jpg" alt="Earphone 1">
         <img src="https://i.imgur.com/BHeaFXO.jpg" alt="Earphone 2">
         <img src="https://i.imgur.com/Jg7WYo4.jpg" alt="Earphone 3">
       </div>
