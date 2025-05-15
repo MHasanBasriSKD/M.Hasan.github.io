@@ -49,8 +49,8 @@ Toko Audio Hasan
       <h2>Earphone</h2>
       <div class="product-grid">
         <img src="https://ae01.alicdn.com/kf/Sfbd07154d4624730a4091b0728cb4044Q.jpg" alt="Earphone 1">
-        <img src="https://i.imgur.com/BHeaFXO.jpg" alt="Earphone 2">
-        <img src="https://i.imgur.com/Jg7WYo4.jpg" alt="Earphone 3">
+        <img src="[https://i.imgur.com/BHeaFXO.jpg](https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/109/MTA-161499817/tangzu_tangzu_x_hbb_xuannv_-_xuan_nv_2_dynamic_driver_earphone_in_ear_monitor_full01_ewjf43v1.jpg)" alt="Earphone 2">
+        <img src="[https://i.imgur.com/Jg7WYo4.jpg](https://csi-zone.id/cdn/shop/files/Black_3397edec-8725-4510-8ea3-069d67f179c4.png?v=1698748979)" alt="Earphone 3">
       </div>
     </div>
   </section>
@@ -59,9 +59,9 @@ Toko Audio Hasan
     <div class="container">
       <h2>Headphone</h2>
       <div class="product-grid">
-        <img src="https://i.imgur.com/DncrbpA.jpg" alt="Headphone 1">
-        <img src="https://i.imgur.com/Wcz2Soh.jpg" alt="Headphone 2">
-        <img src="https://i.imgur.com/y3NBJ7Y.jpg" alt="Headphone 3">
+        <img src="[https://i.imgur.com/DncrbpA.jpg](https://down-id.img.susercontent.com/file/sg-11134201-7rfhy-m378z4aitw7fd3)" alt="Headphone 1">
+        <img src="[https://i.imgur.com/Wcz2Soh.jpg](https://idealelifestyle.com.sg/cdn/shop/files/10_57b015d6-a48e-49eb-914b-af41c2a57614.png?v=1708499329)" alt="Headphone 2">
+        <img src="[https://i.imgur.com/y3NBJ7Y.jpg](https://down-id.img.susercontent.com/file/id-11134207-7r98r-lzixyqzq5rzc9e)" alt="Headphone 3">
       </div>
     </div>
   </section>
