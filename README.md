@@ -59,7 +59,7 @@ Toko Audio Hasan
     <div class="container">
       <h2>Headphone</h2>
       <div class="product-grid">
-        <img src="[https://i.imgur.com/DncrbpA.jpg](https://down-id.img.susercontent.com/file/sg-11134201-7rfhy-m378z4aitw7fd3)" alt="Headphone 1">
+        <img src="https://new-edifier-us-oss.edifier.com/images/20240725/25f3518d757c2f5daadb94ca9805f1e7.png" alt="Headphone 1">
         <img src="[https://i.imgur.com/Wcz2Soh.jpg](https://idealelifestyle.com.sg/cdn/shop/files/10_57b015d6-a48e-49eb-914b-af41c2a57614.png?v=1708499329)" alt="Headphone 2">
         <img src="[https://i.imgur.com/y3NBJ7Y.jpg](https://down-id.img.susercontent.com/file/id-11134207-7r98r-lzixyqzq5rzc9e)" alt="Headphone 3">
       </div>
