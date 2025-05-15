@@ -49,8 +49,8 @@ Toko Audio Hasan
       <h2>Earphone</h2>
       <div class="product-grid">
         <img src="https://ae01.alicdn.com/kf/Sfbd07154d4624730a4091b0728cb4044Q.jpg" alt="Earphone 1">
-        <img src="[https://i.imgur.com/BHeaFXO.jpg](https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/109/MTA-161499817/tangzu_tangzu_x_hbb_xuannv_-_xuan_nv_2_dynamic_driver_earphone_in_ear_monitor_full01_ewjf43v1.jpg)" alt="Earphone 2">
-        <img src="[https://i.imgur.com/Jg7WYo4.jpg](https://csi-zone.id/cdn/shop/files/Black_3397edec-8725-4510-8ea3-069d67f179c4.png?v=1698748979)" alt="Earphone 3">
+        <img src="https://ae01.alicdn.com/kf/Sb51db5532b834a85a4872e9cdb29ca62d.jpg" alt="Earphone 2">
+        <img src="https://ae01.alicdn.com/kf/Sd190d21580b0480cb8042e1b96f29437G.jpg" alt="Earphone 3">
       </div>
     </div>
   </section>
@@ -59,7 +59,7 @@ Toko Audio Hasan
     <div class="container">
       <h2>Headphone</h2>
       <div class="product-grid">
-        <img src="https://new-edifier-us-oss.edifier.com/images/20240725/25f3518d757c2f5daadb94ca9805f1e7.png" alt="Headphone 1">
+        <img src="https://m.media-amazon.com/images/I/61cez984qdL.jpg" alt="Headphone 1">
         <img src="https://m.media-amazon.com/images/I/71iBJ8MknGL._AC_UF894,1000_QL80_.jpg" alt="Headphone 2">
         <img src="https://cdn.prod.website-files.com/627128d862c9a44234848dda/676410ed82ea45da46ff78e8_edge.jpg" alt="Headphone 3">
       </div>
@@ -70,8 +70,8 @@ Toko Audio Hasan
     <div class="container">
       <h2>DAC</h2>
       <div class="product-grid">
-        <img src="https://i.imgur.com/TKrKqN5.jpg" alt="DAC 1">
-        <img src="https://i.imgur.com/l47NhL6.jpg" alt="DAC 2">
+        <img src="https://ae01.alicdn.com/kf/Abe97a4184e864e248b852090a17d9e3bW.jpg" alt="DAC 1">
+        <img src="https://m.media-amazon.com/images/I/61n2pPgtIRL.jpg" alt="DAC 2">
       </div>
     </div>
   </section>
@@ -80,8 +80,8 @@ Toko Audio Hasan
     <div class="container">
       <h2>Kabel</h2>
       <div class="product-grid">
-        <img src="https://i.imgur.com/ab9D6sT.jpg" alt="Kabel 1">
-        <img src="https://i.imgur.com/4pzYjHL.jpg" alt="Kabel 2">
+        <img src="https://images.tokopedia.net/img/cache/700/VqbcmM/2024/12/16/bfa3e743-99be-4d42-9ad5-dcd44af9a91c.jpg" alt="Kabel 1">
+        <img src="https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//86/MTA-6462221/tfz_tfz_tc-1_upgrade_cable_silver_plated_-_single_crystal_copper_-_4-4mm_full04_g6khjt9c.jpg" alt="Kabel 2">
       </div>
     </div>
   </section>
@@ -90,8 +90,8 @@ Toko Audio Hasan
     <div class="container">
       <h2>Eartips</h2>
       <div class="product-grid">
-        <img src="https://i.imgur.com/fBdcmi3.jpg" alt="Eartips 1">
-        <img src="https://i.imgur.com/0mKsf99.jpg" alt="Eartips 2">
+        <img src="https://m.media-amazon.com/images/I/51MAW4zJtuL._AC_UF894,1000_QL80_.jpg" alt="Eartips 1">
+        <img src="https://m.media-amazon.com/images/I/41b7xIfa0cL.jpg" alt="Eartips 2">
       </div>
     </div>
   </section>
